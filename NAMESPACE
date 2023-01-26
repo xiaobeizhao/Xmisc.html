@@ -1,0 +1,24 @@
+
+##' ------------------------------------------------------------------------
+##' IMPORT
+##' ------------------------------------------------------------------------
+
+import(data.table)
+import(parallel)
+import(stringr)
+import(htmltidy)
+import(rvest)
+
+importFrom(R.utils,nullfile)
+importFrom(svMisc,progress)
+
+## import(Xmisc)
+## import(Xmisc.base)
+## import(Xmisc.graphics)
+
+##' ------------------------------------------------------------------------
+##' EXPORT
+##' ------------------------------------------------------------------------
+
+exportPattern("^[^\\.]")
+

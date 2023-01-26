@@ -1,0 +1,28 @@
+Package: Xmisc.html
+Version: 0.0.1
+Date: 2023-01-25 01:08:45 CST
+Title: Xiaobei's Miscellaneous Classes and Functions for HTML
+Description: R classes and functions for HTML.
+License: LGPL (>= 2.1)
+LazyLoad: TRUE
+NeedsCompilation: no
+URL: https://github.com/xiaobeizhao/Xmisc.html
+Repository: CRAN
+Depends: 
+    R (>= 3.2.0)
+Imports: 
+    methods,
+    data.table (>= 1.9.4),
+    parallel (>= 3.4.3),
+    stringr (>= 1.4.0),
+    htmltidy (>= 0.5.0),
+    rvest (>= 1.0.2),
+    svMisc (>= 1.2.3)
+Suggests: 
+    RUnit,
+    datasets
+Enhances:
+Collate: 
+    'imports.R'
+    'util.R'
+    'uscf.R'
